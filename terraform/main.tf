@@ -7,8 +7,8 @@ resource "aws_key_pair" "deployer"{
     public_key = file(var.public_key_path)
 }
 
-resource "aws_security_group" "allow_ssh_http_4"{
-    name = "allow_ssh_http_4"
+resource "aws_security_group" "allow_ssh_http_5"{
+    name = "allow_ssh_http_5"
     description = "Allowing traffic"
 
     ingress{
